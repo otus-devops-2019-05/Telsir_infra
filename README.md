@@ -1,4 +1,7 @@
 # Telsir_infra
+bastion_IP = 34.65.168.247 
+someinternalhost_IP = 10.128.0.2
+
 
 # Знакомство с облачной инфраструктурой
 Задание первое: 
@@ -18,5 +21,3 @@
 Где `34.65.168.247  - внешний IP bastion host` \
 Где `10.128.0.2 - внутренний адрес someinternalhost`       
 
-bastion_IP = 34.65.168.247 \
-someinternalhost_IP = 10.128.0.2
