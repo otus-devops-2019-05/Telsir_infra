@@ -1,5 +1,4 @@
 # Telsir_infra
-Telsir Infra repository
 
 # Знакомство с облачной инфраструктурой
 Задание первое: 
