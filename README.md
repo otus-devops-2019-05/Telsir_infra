@@ -1,6 +1,9 @@
 # Telsir_infra
-bastion_IP = 34.65.168.247 
-someinternalhost_IP = 10.128.0.2
+
+# HW 4 - Основные сервисы Google Cloud Platform 
+
+testapp_IP = 35.246.23.91
+testapp_port = 9292
 
 
 # Знакомство с облачной инфраструктурой
@@ -21,3 +24,5 @@ someinternalhost_IP = 10.128.0.2
 Где `34.65.168.247  - внешний IP bastion host` \
 Где `10.128.0.2 - внутренний адрес someinternalhost`       
 
+bastion_IP = 34.65.168.247 
+someinternalhost_IP = 10.128.0.2
