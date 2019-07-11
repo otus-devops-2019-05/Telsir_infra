@@ -1,2 +1,3 @@
 .idea
 Telsir_infra.iml
+packer/variables.json
