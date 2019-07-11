@@ -1,6 +1,8 @@
 # Telsir_infra
 
-#HW5 
+# HW5 - Модели управления инфраструктурой.
+
+Реализован build через Packer, произведена параметризация обьектов в .json файле. Создан отдельный файл variables.json.example
 
 # HW 4 - Основные сервисы Google Cloud Platform 
 
