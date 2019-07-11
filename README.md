@@ -2,7 +2,7 @@
 
 # HW5 - Модели управления инфраструктурой.
 
-Реализован build через Packer, произведена параметризация объектов в .json файле. Создан отдельный файл variables.json.example
+Реализован build через Packer, произведена параметризация объектов в .json файле. Создан отдельный файл variables.json.example.
 
 `packer build -var-file=variables.json ubuntu16.json`
 
