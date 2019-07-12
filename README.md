@@ -1,5 +1,12 @@
 # Telsir_infra
 
+# HW5 - Модели управления инфраструктурой.
+
+Реализован build через Packer, произведена параметризация объектов в .json файле. Создан отдельный файл variables.json.example.
+
+`packer build -var-file=variables.json ubuntu16.json`
+
+
 # HW 4 - Основные сервисы Google Cloud Platform 
 
 testapp_IP = 35.246.23.91
