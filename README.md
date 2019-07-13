@@ -24,6 +24,8 @@ Installing terraform at Ubuntu 18.04
 
     terraform --version 
 
+Что бы запустить проект, необходимо использовать `terraform apply -auto-approve=true`
+
 # HW5 - Модели управления инфраструктурой.
 
 Реализован build через Packer, произведена параметризация объектов в .json файле. Создан отдельный файл variables.json.example.

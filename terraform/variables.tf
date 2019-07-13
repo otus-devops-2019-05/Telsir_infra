@@ -17,3 +17,15 @@ variable public_key_path {
 variable disk_image {
   description = "Disk image"
 }
+
+variable private_key_path {
+  description = "ssh-key location"
+  default = "~/.ssh/appuser"
+}
+
+variable zone {
+  description = "Zone"
+
+  # Значение по умолчанию
+  default = "europe-west1-b"
+}
