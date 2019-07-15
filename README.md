@@ -1,5 +1,12 @@
 # Telsir_infra
 
+# HW 7 - Принципы организации инфраструктурного кода и работа над инфраструктурой в команде на примере Terraform
+
+Реализована основная часть домашнего задания.
+
+Что бы запустить проект, необходимо использовать `terraform apply -auto-approve=true`
+
+
 # HW 6 - Практика Infrastructure as a Code (IaC)
 
 Installing terraform at Ubuntu 18.04
