@@ -11,7 +11,7 @@
         version: monolith
       notify: reload puma
 
-    - name:
+    - name: Deploy app
       bundler:
         state: present
         chdir: /home/appuser/reddit
