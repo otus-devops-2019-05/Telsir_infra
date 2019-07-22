@@ -1,7 +1,6 @@
 ---
 - name: Deploy App
   hosts: app
-#  tags: deploy-tag
   become: true
 
   tasks:
@@ -12,11 +11,10 @@
         version: monolith
       notify: reload puma
 
-    - name:
+    - name: Deploy app
       bundler:
         state: present
         chdir: /home/appuser/reddit
-      tags: deploy-tag
 
   handlers:
     - name: reload puma
