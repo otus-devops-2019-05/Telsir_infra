@@ -1,5 +1,19 @@
 # Telsir_infra
 
+# HW 11 - Локальная разработка Ansible ролей с Vagrant. Тестирование конфигурации.
+
+После выполнения основного ДЗ в тесты добавлена проверка порта 27017:
+
+    # check that 27017 port is listening
+    def test_port_mongodb(host):
+        port = host.socket ('tcp://0.0.0.0:27017')
+        assert port.is_listening
+
+Добавлены теги для ролей в db.yml и app.yml
+
+Исправлены плейбуки packer и шаблоны packer
+
+
 # HW 10 - Ansible: работа с ролями и окружениями
 
 Добавлены роли и окружения, реализована работа с волтом и добавлен FW rule для vpc модуля терраформа.
