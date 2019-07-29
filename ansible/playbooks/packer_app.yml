@@ -3,14 +3,5 @@
   hosts: all
   become: true
 
-  tasks:
-
-    - name: Install ruby and bundler
-      apt:
-        name: "{{ item }}"
-        update_cache: yes
-        state: latest
-      with_items:
-        - 'ruby-full'
-        - 'ruby-bundler'
-        - 'build-essential'
+  roles:
+    - app
